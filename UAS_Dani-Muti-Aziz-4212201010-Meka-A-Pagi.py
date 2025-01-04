@@ -6,9 +6,7 @@ from torchvision import transforms, models
 from torch.utils.data import Dataset, DataLoader
 from torch import nn, optim
 from PIL import Image
-from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, f1_score
 from tqdm import tqdm
-import matplotlib.pyplot as plt
 
 # Load dataset
 train_data_path = '/home/barelang/Downloads/archive(1)/emnist-bymerge-train.csv'
